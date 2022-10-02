@@ -1,0 +1,453 @@
+@media (min-width: 350px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        
+        animation: color-change-2x 2s linear infinite alternate both;
+    }
+    
+    @keyframes color-change-2x {
+        0% {
+          background: #19dcea;
+        }
+        100% {
+          background: #b22cff;
+        }
+      }
+      header {
+        text-align: center;
+    }
+    header h1{
+        text-align: center;
+        font-family: 'Abyssinica SIL', serif;
+        width: 300px;
+        margin: auto;
+        color: #fff;
+        padding: 10px;
+    }
+    header nav{
+        text-align: center;
+       
+        font-family: 'Lalezar', cursive;
+    }
+    header nav a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 25px;
+        color: #fff;
+       
+    }
+   
+    main article {
+      direction: ltr;
+     padding: 10px;
+      margin-top: 50px;
+      animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+    @keyframes tracking-in-expand-fwd {
+      0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateZ(0);
+        opacity: 1;
+      }
+    }
+    main article p{
+      direction: rtl;
+      color: rgb(255, 2, 234);
+      font-family: 'Lalezar', cursive;
+      font-size: 30px;
+      background-color: #fff;
+     padding: 10px;
+      margin-bottom: 50px;
+      width: 300px;
+      margin: auto;
+      border-radius: 5px;
+      
+    }
+    main article img{
+      width: 300px;
+      margin: auto;
+    display: none;
+      
+    }
+    h3{
+      text-align: center;
+      color: #fff;
+      font-family: 'Lalezar', cursive;
+    }
+  }
+  @media (min-width: 576px) { 
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        
+        animation: color-change-2x 2s linear infinite alternate both;
+    }
+    
+    @keyframes color-change-2x {
+        0% {
+          background: #19dcea;
+        }
+        100% {
+          background: #b22cff;
+        }
+      }
+      header {
+        text-align: center;
+    }
+    header h1{
+        text-align: center;
+        font-family: 'Abyssinica SIL', serif;
+        width: 300px;
+        margin: auto;
+        color: #fff;
+        padding: 10px;
+    }
+    header nav{
+        text-align: center;
+       
+        font-family: 'Lalezar', cursive;
+    }
+    header nav a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 25px;
+        color: #fff;
+       
+    }
+    main article {
+      direction: ltr;
+      display: flex;
+  
+    }
+    main article p{
+      direction: rtl;
+      color: rgb(255, 2, 234);
+      font-family: 'Lalezar', cursive;
+      font-size: 30px;
+      background-color: #fff;
+     padding: 10px;
+      margin-bottom: 50px;
+      width: 300px;
+      margin: auto;
+      border-radius: 5px;
+      
+    }
+    main article img{
+      width: 300px;
+      margin: auto;
+    display: flex;
+      
+    }
+    h3{
+      text-align: center;
+      color: #fff;
+      font-family: 'Lalezar', cursive;
+    }
+    
+  }
+  
+  
+  @media (min-width: 768px) { 
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        
+        animation: color-change-2x 2s linear infinite alternate both;
+    }
+    
+    @keyframes color-change-2x {
+        0% {
+          background: #19dcea;
+        }
+        100% {
+          background: #b22cff;
+        }
+      }
+      header {
+        text-align: center;
+    }
+    header h1{
+        text-align: center;
+        font-family: 'Abyssinica SIL', serif;
+        width: 300px;
+        margin: auto;
+        color: #fff;
+        padding: 10px;
+    }
+    header nav{
+        text-align: center;
+       
+        font-family: 'Lalezar', cursive;
+    }
+    header nav a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 25px;
+        color: #fff;
+       
+    }
+    main article {
+      direction: ltr;
+      display: flex;
+  
+    }
+    main article p{
+      direction: rtl;
+      color: rgb(255, 2, 234);
+      font-family: 'Lalezar', cursive;
+      font-size: 30px;
+      background-color: #fff;
+     padding: 10px;
+      margin-bottom: 50px;
+      width: 300px;
+      margin: auto;
+      border-radius: 5px;
+      
+    }
+    main article img{
+      width: 300px;
+      margin: auto;
+    display: flex;
+      
+    }
+    h3{
+      text-align: center;
+      color: #fff;
+      font-family: 'Lalezar', cursive;
+    }
+    
+  }
+  
+  @media (min-width: 800px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        
+        animation: color-change-2x 2s linear infinite alternate both;
+    }
+    
+    @keyframes color-change-2x {
+        0% {
+          background: #19dcea;
+        }
+        100% {
+          background: #b22cff;
+        }
+      }
+      header {
+        text-align: center;
+    }
+    header h1{
+        text-align: center;
+        font-family: 'Abyssinica SIL', serif;
+        width: 300px;
+        margin: auto;
+        color: #fff;
+        padding: 10px;
+    }
+    header nav{
+        text-align: center;
+       
+        font-family: 'Lalezar', cursive;
+    }
+    header nav a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 25px;
+        color: #fff;
+       
+    }
+    main article {
+      direction: ltr;
+      display: flex;
+  
+    }
+    main article p{
+      direction: rtl;
+      color: rgb(255, 2, 234);
+      font-family: 'Lalezar', cursive;
+      font-size: 30px;
+      background-color: #fff;
+     padding: 10px;
+      margin-bottom: 50px;
+      width: 300px;
+      margin: auto;
+      border-radius: 5px;
+      
+    }
+    main article img{
+      width: 300px;
+      margin: auto;
+    display: flex;
+      
+    }
+    h3{
+      text-align: center;
+      color: #fff;
+      font-family: 'Lalezar', cursive;
+    }
+    
+  }
+  @media (min-width: 992px) { 
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        
+        animation: color-change-2x 2s linear infinite alternate both;
+    }
+    
+    @keyframes color-change-2x {
+        0% {
+          background: #19dcea;
+        }
+        100% {
+          background: #b22cff;
+        }
+      }
+      header {
+        text-align: center;
+    }
+    header h1{
+        text-align: center;
+        font-family: 'Abyssinica SIL', serif;
+        width: 300px;
+        margin: auto;
+        color: #fff;
+        padding: 10px;
+    }
+    header nav{
+        text-align: center;
+       
+        font-family: 'Lalezar', cursive;
+    }
+    header nav a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 25px;
+        color: #fff;
+       
+    }
+
+    main article {
+      direction: ltr;
+      display: flex;
+  
+    }
+    main article p{
+      direction: rtl;
+      color: rgb(255, 2, 234);
+      font-family: 'Lalezar', cursive;
+      font-size: 30px;
+      background-color: #fff;
+     padding: 10px;
+      margin-bottom: 50px;
+      width: 300px;
+      margin: auto;
+      border-radius: 5px;
+      
+    }
+    main article img{
+      width: 300px;
+      margin: auto;
+    display: flex;
+      
+    }
+    h3{
+      text-align: center;
+      color: #fff;
+      font-family: 'Lalezar', cursive;
+    }
+  }
+  
+  
+  @media (min-width: 1200px) { 
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        
+        animation: color-change-2x 2s linear infinite alternate both;
+    }
+    
+    @keyframes color-change-2x {
+        0% {
+          background: #19dcea;
+        }
+        100% {
+          background: #b22cff;
+        }
+      }
+      
+    header h1{
+        font-family: 'Abyssinica SIL', serif;
+        width: 300px;
+        margin: 0px;
+        height: 0px;
+        color: #fff;
+        padding: 10px;
+    }
+    header nav{
+        text-align: end;
+        margin-bottom: 50px;
+        margin-left: 500px;
+        font-family: 'Lalezar', cursive;
+    }
+    header nav a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 25px;
+        color: #fff;
+       
+    }
+    main article {
+      direction: ltr;
+      display: flex;
+  
+    }
+    main article p{
+      direction: rtl;
+      color: rgb(255, 2, 234);
+      font-family: 'Lalezar', cursive;
+      font-size: 30px;
+      background-color: #fff;
+     padding: 10px;
+      margin-bottom: 50px;
+      width: 300px;
+      margin: auto;
+      border-radius: 5px;
+      
+    }
+    main article img{
+      width: 300px;
+      margin: auto;
+    
+      display: flex;
+    }
+    h3{
+      text-align: center;
+      color: #fff;
+      font-family: 'Lalezar', cursive;
+    }
+    
+    
+    
+  }

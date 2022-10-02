@@ -1,0 +1,560 @@
+@media (min-width: 350px){
+  *{
+      padding: 0px;
+      margin: 0px;
+  }
+  body{
+      
+      animation: color-change-2x 2s linear infinite alternate both;
+  }
+  
+  @keyframes color-change-2x {
+      0% {
+        background: #19dcea;
+      }
+      100% {
+        background: #b22cff;
+      }
+    }
+    header {
+      text-align: center;
+  }
+  header h1{
+      text-align: center;
+      font-family: 'Abyssinica SIL', serif;
+      width: 300px;
+      margin: auto;
+      color: #fff;
+      padding: 10px;
+  }
+  header nav{
+      text-align: center;
+     
+      font-family: 'Lalezar', cursive;
+  }
+  header nav a{
+      text-decoration: none;
+      padding: 10px;
+      font-size: 25px;
+      color: #fff;
+     
+  }
+  #name{
+      background-color: #fff;
+      width: 200px;
+      padding: 20px;
+      margin: auto;
+      margin-top: 140px ;
+      border-radius: 5px;
+  }
+  #name h1 , .asd1{
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  @keyframes tracking-in-expand-fwd {
+      0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateZ(0);
+        opacity: 1;
+      }
+    }
+  #hh{
+      color: #fff;
+      text-align: center;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+  }
+  #kd{
+      
+      display: block;
+      width: 300px;
+      background-color: #fff;
+      text-align: center;
+      margin: auto;
+      border-radius: 5px;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+      animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+ 
+  
+}
+@media (min-width: 576px) { 
+  *{
+      padding: 0px;
+      margin: 0px;
+  }
+  body{
+      
+      animation: color-change-2x 2s linear infinite alternate both;
+  }
+  
+  @keyframes color-change-2x {
+      0% {
+        background: #19dcea;
+      }
+      100% {
+        background: #b22cff;
+      }
+    }
+    header {
+      text-align: center;
+  }
+  header h1{
+      text-align: center;
+      font-family: 'Abyssinica SIL', serif;
+      width: 300px;
+      margin: auto;
+      color: #fff;
+      padding: 10px;
+  }
+  header nav{
+      text-align: center;
+     
+      font-family: 'Lalezar', cursive;
+  }
+  header nav a{
+      text-decoration: none;
+      padding: 10px;
+      font-size: 25px;
+      color: #fff;
+     
+  }
+  #name{
+      background-color: #fff;
+      width: 400px;
+      padding: 20px;
+      margin: auto;
+      margin-top: 140px ;
+      border-radius: 5px;
+  }
+  #name h1 , .asd1{
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  @keyframes tracking-in-expand-fwd {
+      0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateZ(0);
+        opacity: 1;
+      }
+    }
+  #hh{
+      color: #fff;
+      text-align: center;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+  }
+  #kd{
+      
+      display: block;
+      width: 300px;
+      background-color: #fff;
+      text-align: center;
+      margin: auto;
+      border-radius: 5px;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+      animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+ 
+  
+}
+
+
+@media (min-width: 768px) { 
+  *{
+      padding: 0px;
+      margin: 0px;
+  }
+  body{
+      
+      animation: color-change-2x 2s linear infinite alternate both;
+  }
+  
+  @keyframes color-change-2x {
+      0% {
+        background: #19dcea;
+      }
+      100% {
+        background: #b22cff;
+      }
+    }
+    header {
+      text-align: center;
+  }
+  header h1{
+      text-align: center;
+      font-family: 'Abyssinica SIL', serif;
+      width: 300px;
+      margin: auto;
+      color: #fff;
+      padding: 10px;
+  }
+  header nav{
+      text-align: center;
+     
+      font-family: 'Lalezar', cursive;
+  }
+  header nav a{
+      text-decoration: none;
+      padding: 10px;
+      font-size: 25px;
+      color: #fff;
+     
+  }
+  #name{
+      background-color: #fff;
+      width: 400px;
+      padding: 20px;
+      margin: auto;
+      margin-top: 140px ;
+      border-radius: 5px;
+  }
+  #name h1 , .asd1{
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  @keyframes tracking-in-expand-fwd {
+      0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateZ(0);
+        opacity: 1;
+      }
+    }
+  #hh{
+      color: #fff;
+      text-align: center;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+  }
+  #kd{
+      
+      display: block;
+      width: 300px;
+      background-color: #fff;
+      text-align: center;
+      margin: auto;
+      border-radius: 5px;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+      animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+ 
+  
+}
+
+@media (min-width: 800px) {
+  *{
+      padding: 0px;
+      margin: 0px;
+  }
+  body{
+      
+      animation: color-change-2x 2s linear infinite alternate both;
+  }
+  
+  @keyframes color-change-2x {
+      0% {
+        background: #19dcea;
+      }
+      100% {
+        background: #b22cff;
+      }
+    }
+    header {
+      text-align: center;
+  }
+  header h1{
+      text-align: center;
+      font-family: 'Abyssinica SIL', serif;
+      width: 300px;
+      margin: auto;
+      color: #fff;
+      padding: 10px;
+  }
+  header nav{
+      text-align: center;
+     
+      font-family: 'Lalezar', cursive;
+  }
+  header nav a{
+      text-decoration: none;
+      padding: 10px;
+      font-size: 25px;
+      color: #fff;
+     
+  }
+  #name{
+      background-color: #fff;
+      width: 400px;
+      padding: 20px;
+      margin: auto;
+      margin-top: 140px ;
+      border-radius: 5px;
+  }
+  #name h1 , .asd1{
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  @keyframes tracking-in-expand-fwd {
+      0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateZ(0);
+        opacity: 1;
+      }
+    }
+  #hh{
+      color: #fff;
+      text-align: center;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+  }
+  #kd{
+      
+      display: block;
+      width: 300px;
+      background-color: #fff;
+      text-align: center;
+      margin: auto;
+      border-radius: 5px;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+      animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+ 
+  
+  
+}
+@media (min-width: 992px) { 
+  *{
+      padding: 0px;
+      margin: 0px;
+  }
+  body{
+      
+      animation: color-change-2x 2s linear infinite alternate both;
+  }
+  
+  @keyframes color-change-2x {
+      0% {
+        background: #19dcea;
+      }
+      100% {
+        background: #b22cff;
+      }
+    }
+    header {
+      text-align: center;
+  }
+  header h1{
+      text-align: center;
+      font-family: 'Abyssinica SIL', serif;
+      width: 300px;
+      margin: auto;
+      color: #fff;
+      padding: 10px;
+  }
+  header nav{
+      text-align: center;
+     
+      font-family: 'Lalezar', cursive;
+  }
+  header nav a{
+      text-decoration: none;
+      padding: 10px;
+      font-size: 25px;
+      color: #fff;
+     
+  }
+  #name{
+      background-color: #fff;
+      width: 400px;
+      padding: 20px;
+      margin: auto;
+      margin-top: 140px ;
+      border-radius: 5px;
+  }
+  #name h1 , .asd1{
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  @keyframes tracking-in-expand-fwd {
+      0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateZ(0);
+        opacity: 1;
+      }
+    }
+  #hh{
+      color: #fff;
+      text-align: center;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+  }
+  #kd{
+      display: inline-flex;
+      margin-right: 120px;
+      background-color: #fff;
+      width: 900px;
+      padding: 30px;
+      border-radius: 5px;
+      font-family: 'Lalezar', cursive;
+      animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  #kd p{
+     padding: 10px;
+     text-align: center;
+    
+  }
+  
+  
+  
+}
+
+
+@media (min-width: 1200px) { 
+  *{
+      padding: 0px;
+      margin: 0px;
+  }
+  body{
+      
+      animation: color-change-2x 2s linear infinite alternate both;
+  }
+  
+  @keyframes color-change-2x {
+      0% {
+        background: #19dcea;
+      }
+      100% {
+        background: #b22cff;
+      }
+    }
+    
+  header h1{
+      font-family: 'Abyssinica SIL', serif;
+      width: 300px;
+      margin: 0px;
+      height: 0px;
+      color: #fff;
+      padding: 10px;
+  }
+  header nav{
+      text-align: end;
+      margin-bottom: 50px;
+      margin-left: 500px;
+      font-family: 'Lalezar', cursive;
+  }
+  header nav a{
+      text-decoration: none;
+      padding: 10px;
+      font-size: 25px;
+      color: #fff;
+     
+  }
+  #name{
+      background-color: #fff;
+      width: 400px;
+      padding: 20px;
+      margin: auto;
+      margin-top: 140px ;
+      border-radius: 5px;
+  }
+  #name h1 , .asd1{
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+    animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  @keyframes tracking-in-expand-fwd {
+      0% {
+        letter-spacing: -0.5em;
+        transform: translateZ(-700px);
+        opacity: 0;
+      }
+      40% {
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateZ(0);
+        opacity: 1;
+      }
+    }
+  #hh{
+      color: #fff;
+      text-align: center;
+      font-family: 'Lalezar', cursive;
+      padding: 10px;
+  }
+  #kd{
+      display: inline-flex;
+      margin-right: 200px;
+      background-color: #fff;
+      width: 900px;
+      padding: 30px;
+      border-radius: 5px;
+      font-family: 'Lalezar', cursive;
+      animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  #kd p{
+     padding: 10px;
+     text-align: center;
+    
+  }
+  
+  
+  
+}
+
+
+h3{
+  text-align: center;
+  color: #fff;
+  font-family: 'Lalezar', cursive;
+}
